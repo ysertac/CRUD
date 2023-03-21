@@ -1,0 +1,58 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    position: relative;
+    background: linear-gradient(to left,pink, antiquewhite);
+}
+
+#watching
+{
+    list-style: none;
+}
+
+#watching li
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#watching li div
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#warn {
+    border-radius: 10px;
+}
+
+#my_social .container{
+    position: absolute;
+    bottom: 50px;
+    left: 260px;
+}
+
+#my_social ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#my_social li a {
+    color: black;
+    font-size: 40px;
+    margin-left: 100px;
+    transition: .7s;
+}
+
+#my_social li a:hover {
+    color: darkblue;
+}
